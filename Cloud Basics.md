@@ -164,12 +164,13 @@ A **region** is a geographical area (usually a country or part of the world) whe
 
 
 # Zones 
-**Availability Zones** are specific locations within a region where data centers are placed.  
-Each region has multiple zones, and they work together to improve availability and reduce delays.
+**Zones** are specific spots within a region where those data centers live. Every region has a few of these zones, and they team up to make sure things stay up and running and to keep things fast.
 
-**Example:**  
-Nigeria can be seen as a region.  
-Within Nigeria, Lagos may have multiple zones such as:
+**Example:**
+
+Let's say Nigeria is a region.
+
+Inside Nigeria, Lagos might have several zones spot, maybe like:
 
 - Victoria Island  (data center 1 is here)
 - Ikoyi   (data center 2 is here)
