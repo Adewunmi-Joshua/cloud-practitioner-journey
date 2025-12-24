@@ -23,7 +23,7 @@ That is what the AWS Cloud Practitioner exam is about, being familiar with these
 
 ## What Is Amazon EC2 (Amazon Elastic Compute Cloud)?
 
-In simple words, Amazon EC2 is a service that allows you to access compute resources such as CPU, memory, storage, networking, and more over the internet to run whatever want you need.
+In simple words, Amazon EC2 is a service that allows you to access compute resources such as CPU, memory, storage, networking, and more over the internet to run whatever  you need.
 
 In other words, it means setting up a virtual server (compute) over the internet for your needs.
 
