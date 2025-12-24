@@ -37,7 +37,7 @@ See EC2 as a service offered by AWS Cloud that is ready to use, and the setup of
 
 Something interesting again is that just the way you can go from a small standing fan to an industrial fan based on your needs and workload, that is how an EC2 instance also works.
 
-You can add more to your instance to produce more power-this is called **scaling up**.
+You can add more to your instance to produce (more power) this is called **scaling up**.
 
 In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
 
