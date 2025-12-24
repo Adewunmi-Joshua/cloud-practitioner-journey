@@ -11,7 +11,7 @@ In the same way, if you study AWS Cloud, you can still use that knowledge in oth
 
 I am preparing for the AWS Cloud Practitioner exam, so everything I will be talking about will be based on AWS Cloud. Some words may sound a little strange at first, and you may wonder, “What is that?” Don’t worry—we will understand what all these things are and how they work as we move forward.
 
-In this section, I will be talking about one of the AWS services called **Amazon EC2 (Amazon Elastic Compute Cloud)**. But you may be wondering, why did I have to study all this about cloud?
+In this section, I will be talking about one of the AWS services called ***Amazon EC2 (Amazon Elastic Compute Cloud)**. But you may be wondering, why did I have to study all this about cloud?
 
 Imagine you are working in a pharmacy as a pharmacist. It is your job to know about different medicines and know which one to give to a customer based on their complaint.
 
@@ -27,4 +27,18 @@ In simple words, Amazon EC2 is a service that allows you to access compute resou
 
 In other words, it means setting up a virtual server (compute) over the internet for your needs.
 
-More coming
+Under EC2, you can create something called an **EC2 instance**, which is a virtual compute that you can set up with just a click on the management console for your workload.
+
+As time goes on, I will show how to set up an EC2 instance so we can see how it looks.
+
+Let me use this example to clarify things more. Imagine getting a standing fan that is well packaged in a carton. Inside the carton, the fan is not yet assembled, but it is a product that is ready to use. When you get home, you have to set it up and configure it together for your needs.
+
+See EC2 as a service offered by AWS Cloud that is ready to use, and the setup of that service is called an **EC2 instance**.
+
+Something interesting again is that just the way you can go from a small standing fan to an industrial fan based on your needs and workload, that is how an EC2 instance also works.
+
+You can add more to your instance to produce more power-this is called **scaling up**.
+
+In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
+
+
