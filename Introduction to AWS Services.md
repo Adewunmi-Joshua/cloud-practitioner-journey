@@ -25,6 +25,6 @@ That is what the AWS Cloud Practitioner exam is about, being familiar with these
 
 In simple terms, Amazon EC2 is the process of accessing the compute resources you need—such as CPU, memory, storage, networking, and more-over the internet to run whatever you want.
 
-In other words, it means setting up a virtual computer on the internet for your needs.
+In other words, it means setting up a virtual (server) compute over the internet for your needs.
 
 More coming
