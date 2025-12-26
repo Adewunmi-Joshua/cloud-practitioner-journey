@@ -41,4 +41,29 @@ You can add more to your instance to produce (more power) this is called **scali
 
 In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
 
+## EC2 Instance Types
+
+### General Instance
+This is very good for general purposes such as analyzing data, fast hardware usage, storing data, workloads, and more.
+
+---
+
+### Compute Instance
+This is very good for handling workloads because it provides more power. It is good for gaming, machine learning, and AI.
+
+---
+
+### Storage Instance
+This has the capacity to store large databases and handle workloads with high performance.
+
+---
+
+### Memory Instance
+This is good for analyzing databases with high performance.
+
+---
+
+### Accelerated Instance
+If you are looking for hardware with very good fast performance, accelerated hardware is the best.
+
 
