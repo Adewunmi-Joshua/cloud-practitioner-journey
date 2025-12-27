@@ -43,23 +43,69 @@ In the same way, when you no longer need the industrial fan, you can stop using 
 
 ## EC2 Instance Types
 
-### General Instance
+### 1. General Instance
 This is very good for general purposes such as analyzing data, fast hardware usage, storing data, workloads, and more.
 
 
-### Compute Instance
+### 2. Compute Instance
 This is very good for handling workloads because it provides more power. It is good for gaming, machine learning, and AI.
 
 
-### Storage Instance
+### 3. Storage Instance
 This has the capacity to store large databases and handle workloads with high performance.
 
 
-### Memory Instance
+### 4. Memory Instance
 This is good for analyzing databases with high performance.
 
 
-### Accelerated Instance
+### 5. Accelerated Instance
 If you are looking for hardware with very good fast performance, accelerated hardware is the best.
+
+
+
+## Instance Pricing 
+
+Let us move forward a little bit to instance pricing, which is also very important to know as a beginner.
+
+Spot, Savings, Reserved, On-Demand, Dedicated Host, Dedicated Instance
+
+### On-Demand Instance
+This is when you are paying for what you use. As I said in one of my documents, if you use it for 5 hours, you are only paying for those 5 hours, with no additional charges. This is good for startups and small businesses.
+
+---
+
+### Savings Instance
+This creates a discount for any customer that stays dedicated to a particular service for one to three years. Imagine you are running an e-commerce website and you know you will need storage for at least three years. You will get a discount for that commitment.
+
+---
+
+### Reserved Instance
+This is similar to a Savings Instance. If you commit to using an instance for one or three years in the same region, you will get a discount that is slightly higher than a Savings Instance, and the commitment level is more flexible than others.
+
+---
+
+### Spot Instance
+Let me use an example to explain this. Imagine you have two phones but barely use your second phone. Your friend needs a phone and asks if they can use your second phone. You agree because you do not use it much, but you also tell your friend that you can take the phone back if you need it. Your friend agrees.
+
+It is the same with Spot Instances. You are making use of AWS resources that are not currently being used, but AWS can interrupt you if they are needed, with a two-minute notice. You must agree to this condition. Spot Instances are very cheap and suitable for services that can be interrupted during processing.
+
+---
+
+### Dedicated Host
+I will also use an example here. A Dedicated Host is like buying a standing fridge for yourself—no sharing, it is just for you. You can control what happens to it because it is dedicated to you.
+
+Think of a Dedicated Host like buying a complete server rack for yourself for control and security reasons. It is expensive to set up and expensive to maintain.
+
+---
+
+### Dedicated Instance
+Going back to the fridge example, this is when you are getting a small part of the fridge dedicated to you, like telling your younger sisters not to touch the meat in the upper part of the fridge because that section is reserved for you.
+
+In the same way, a Dedicated Instance means you are getting a portion of a server rack for yourself and staying isolated from other AWS customers on the same server.
+
+---
+
+You may be thinking, does all this really sound like instance pricing? As mentioned earlier, we are like pharmacists who should explain to our customers: use this, use that, this one is cheap because of this, go with this if you are on a budget, and so on.
 
 
