@@ -71,7 +71,7 @@ Let us move forward a little bit to instance pricing, which is also very importa
 Spot, Savings, Reserved, On-Demand, Dedicated Host, Dedicated Instance
 
 ### On-Demand Instance
-This is when you are paying for what you use. As I said in one of my documents, if you use it for 5 hours, you are only paying for those 5 hours, with no additional charges. This is good for startups and small businesses.
+This is when you are paying for what you use. As I said in one of my documentation, if you use a service for 5 hours, you are only paying for those 5 hours, with no additional charges. This is good for startups and small businesses.
 
 ---
 
