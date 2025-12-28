@@ -105,7 +105,6 @@ Going back to the fridge example, this is when you are getting a small part of t
 In the same way, a Dedicated Instance means you are getting a portion of a server rack for yourself and staying isolated from other AWS customers on the same server.
 
 ---
-
-You may be thinking, does all this really sound like instance pricing? As mentioned earlier, we are like pharmacists who should explain to our customers: use this, use that, this one is cheap because of this, go with this if you are on a budget, and so on.
+Just like a pharmacist recommends medicine based on a customer’s needs and budget, cloud pricing helps you choose the right instance type based on cost and workload.
 
 
