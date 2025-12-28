@@ -39,7 +39,7 @@ Something interesting again is that just the way you can go from a small standin
 
 You can add more to your instance to produce (more power) this is called **scaling up**.
 
-In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
+In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 instance can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
 
 ## EC2 Instance Types
 
