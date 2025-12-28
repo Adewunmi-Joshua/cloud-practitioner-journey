@@ -4,7 +4,7 @@ Now that I have covered what cloud computing is and other things related to it, 
 
 Something interesting is that if you choose AWS Cloud and study it, you can still use the same knowledge for Google Cloud and other cloud providers. Some words may just change, but you don’t have to worry about that because the core concept remains the same.
 
-Let us look at it this way: imagine you are working for a Toyota car company as a mechanical engineer. As time goes on, you stop working for them and start working for Honda. You are still a mechanical engineer, right? The brake, accelerator, and clutch are still in the same places.
+Let us look at it this way: imagine you are working for a Toyota car company as a mechanical engineer. As time goes on, you stop working for them and start working for Honda. You are still a mechanical engineer, right? The brake, accelerator, and clutch are still in the same places in a car.
 What may slightly differ are the guidelines and processes, but you are still a mechanical engineer.
 
 In the same way, if you study AWS Cloud, you can still use that knowledge in other cloud provider environments.
