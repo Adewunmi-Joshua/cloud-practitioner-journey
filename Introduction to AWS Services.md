@@ -108,3 +108,16 @@ In the same way, a Dedicated Instance means you are getting a portion of a serve
 Just like a pharmacist recommends medicine based on a customer’s needs and budget, cloud pricing helps you choose the right instance type based on cost and workload.
 
 
+
+## Let talk about how you can interact with AWS Service
+
+You may be looking at it like, is the AWS Management Console the only way I can use to interact (access) AWS Services? The answer is NO. We have the CLI (Command Line) and AWS SDK (Software Development Kit).
+
+### AWS Management Console
+is very easy to use and user-friendly for beginners. Why? You just have to log in to your console, search for the service you need, and set it up based on your needs.
+
+### Command Line 
+This is very good for people with technical knowledge and who are familiar with script writing. It can also be used to interact with AWS resources and even launch instances.
+
+### Software Development Kit
+If you are a developer looking to integrate AWS services into your platform, this option is best for you because it comes with guideline documentation on how to go about it as a developer.
