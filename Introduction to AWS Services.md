@@ -19,7 +19,7 @@ Now, I want you to look at the AWS services that I will be discussing as medicin
 
 That is what the AWS Cloud Practitioner exam is about, being familiar with these services. This does not make you a professional yet, but it gives you access to the knowledge (objectives) and the management console (theory) to understand how things work.
 
-The preparation for the exam can be accessed on AWS Skill Builder, while the theory aspect can be accessed through the AWS Management Console, where you can practice what you have learned.
+The preparation for the exam can be accessed on **AWS Skill Builder,** while the theory aspect can be accessed through the **AWS Management Console,** where you can practice what you have learned.
 
 ## What Is Amazon EC2 (Amazon Elastic Compute Cloud)?
 
