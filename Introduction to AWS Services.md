@@ -121,3 +121,52 @@ This is very good for people with technical knowledge and who are familiar with 
 
 ### Software Development Kit
 If you are a developer looking to integrate AWS services into your platform, this option is best for you because it comes with guideline documentation on how to go about it as a developer.
+
+
+# AWS Shared Responsibility Model
+
+Wait, what is that? Don’t be scared. It is just about which part you are taking care of as a customer of AWS, and the part AWS has to deal with. It is very important to know this.
+
+---
+
+## AWS Responsibility (Security *of* the Cloud)
+
+Let me use this example to clarify this.
+
+Let’s say you set up a tank with all the necessary things to provide water for your neighbours. It is very certain that it is your responsibility to watch over the smooth running and maintenance of the water and related facilities.
+
+I want you to look at **AWS responsibility** like that.
+
+AWS is responsible for anything **OF THE CLOUD**, which includes:
+
+- Global infrastructure  
+- Storage  
+- Database  
+- Networking  
+- Hardware  
+- Edge locations  
+- Software for the servers  
+
+These are AWS responsibilities.
+
+---
+
+## Customer Responsibility (Security *of* the Cloud)
+
+Let’s go back to our example.
+
+After you set up everything, you start passing out different pipes to your neighbours from your facilities to give out water. Now, it is very certain that it is the responsibility of individuals to lock the pipe when they are done fetching water, control who has access to it from their end, and change anything that needs to be changed based on their needs.
+
+I want you to look at **customer responsibility** like that.
+
+Customers are responsible for anything **IN THE CLOUD**, which includes:
+
+- User data protection  
+- Firewall configuration  
+- Network traffic  
+- Software management  
+- Server-side data encryption  
+
+These are the customer’s responsibilities.
+
+
