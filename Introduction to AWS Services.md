@@ -114,7 +114,7 @@ Just like a pharmacist recommends medicine based on a customer’s needs and bud
 You may be looking at it like, is the AWS Management Console the only way I can use to interact (access) AWS Services? The answer is NO. We have the CLI (Command Line) and AWS SDK (Software Development Kit).
 
 ### AWS Management Console
-is very easy to use and user-friendly for beginners. Why? You just have to log in to your console, search for the service you need, and set it up based on your needs.
+Is very easy to use and user-friendly for beginners. Why? You just have to log in to your console, search for the service you need, and set it up based on your needs.
 
 ### Command Line 
 This is very good for people with technical knowledge and who are familiar with script writing. It can also be used to interact with AWS resources and even launch instances.
