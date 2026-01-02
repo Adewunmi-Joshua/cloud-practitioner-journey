@@ -185,9 +185,9 @@ Customers are responsible for anything **IN THE CLOUD**, which includes:
 These are the customer’s responsibilities.
 
 ## What I covers in this document
-Understanding AWS Services
-What you can use EC2 Instance for 
-EC2 Instance Types
-Instance Pricing 
-how you can interact with AWS Service
-AWS Shared Responsibility Model
+- Understanding AWS Services
+- What you can use EC2 Instance for 
+- EC2 Instance Types
+- Instance Pricing 
+- how you can interact with AWS Service
+- AWS Shared Responsibility Model
