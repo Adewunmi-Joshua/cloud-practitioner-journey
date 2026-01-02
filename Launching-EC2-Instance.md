@@ -22,7 +22,7 @@ It is going to take you to another page with a **Launch Instance** orange button
 
 Now click on **Launch Instance**.
 
-![step 2](images/ec2-launch/step-2.png)
+![step 2](images/ec2-launch/step-2s.png)
 
 ## step 3: Name and Tags
 (This is where you name your instance, but let’s go with **My-web-server**.)
