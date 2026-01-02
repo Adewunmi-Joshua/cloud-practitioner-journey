@@ -97,7 +97,7 @@ Then click on Get Password. Click on Upload private key pair and upload the key 
 
 ## step 10 Accessing Your EC2 Instance
 
-Give it a few minutes, and you will see the instance (virtual compute) we just launched. This is  another computer set up on your system. for your need.
+Give it a few minutes, and you will see the instance (virtual compute) we just launched. 
 
 ![ part of step 10](images/ec2-launch/step-15.png)
 
