@@ -91,7 +91,7 @@ Then click on Get Password. Click on Upload private key pair and upload the key 
 
 - It will bring up some warnings, but that is fine—you can click OK. A pop-up window for login will appear. Copy the password and paste it into the password input, then click ok.
 
-![ part of step 9](images/ec2-launch/step-14.png)
+![ part of step 9](images/ec2-launch/window.png)
 
 ![ part of step 9](images/ec2-launch/step-14.png)
 
