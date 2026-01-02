@@ -21,6 +21,20 @@ That is what the AWS Cloud Practitioner exam is about, being familiar with these
 
 The preparation for the exam can be accessed on **AWS Skill Builder,** while the theory aspect can be accessed through the **AWS Management Console,** where you can practice what you have learned.
 
+## What you can use EC2 Instance for 
+
+Machine Learning
+
+Data Analysis 
+
+Web Hosting
+
+Data Processing 
+
+Web  Applications Deployment 
+
+Software Testing and soon
+
 ## What Is Amazon EC2 (Amazon Elastic Compute Cloud)?
 
 In simple words, Amazon EC2 is a service that allows you to access compute resources such as CPU, memory, storage, networking, and more over the internet to run whatever  you need.
