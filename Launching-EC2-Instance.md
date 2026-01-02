@@ -10,7 +10,7 @@ First, create an account on the **Management Console** and log in.
 
 It is going to take you to the console home.
 
-At the top left, you will see **Search**. Click on it.
+At the top left, you will see **Search input**. Click on it.
 
 Then search for **EC2**. It is going to bring some other options with it, but look for **EC2** and click on it.
 
@@ -18,14 +18,15 @@ Then search for **EC2**. It is going to bring some other options with it, but lo
 
 ## step 2: Navigate to the EC2 Dashboard
 
-It is going to take you to another page with a **Launch Instance** orange button to the left, but before you click on it, look at the top tab. You will see **United States (N. Virginia)**. That is the region and the zone. You can pick where you want to put your EC2 instance. You can change it to anywhere you want, although there are things that are going to determine how to decide that properly. I will discuss that in the future, including edge locations.
+It is going to take you to another page with a **Launch Instance** orange button to the right, but before you click on it, look at the top tab. You will see **United States (N. Virginia)**. United States (N. Virginia) is the Region
+the Availability Zone would be something like us-east-1a. You can pick where you want to put your EC2 instance. You can change it to anywhere you want, although there are things that are going to determine how to decide that properly. I will discuss that in the future, including edge locations.
 
 Now click on **Launch Instance**.
 
 ![step 2](images/ec2-launch/step-2s.png)
 
 ## step 3: Name and Tags
-(This is where you name your instance, but let’s go with **My-web-server**.)
+This is where you name your instance, but let’s go with **My-web-server**.
 
 ![step 3](images/ec2-launch/step-3.png)
 
@@ -95,17 +96,17 @@ Then click on Get Password. Click on Upload private key pair and upload the key 
 
 ![ part of step 9](images/ec2-launch/step-14.png)
 
-## step 10 Accessing Your EC2 Instance
+## step 10: Accessing Your EC2 Instance
 
-Give it a few minutes, and you will see the instance (virtual compute) we just launched. This is  another computer set up on your system. All the setup processes, are what make up the instance.
+Give it a few minutes, and you will see the instance (virtual compute) we just launched. This is  another computer set up on your system. All the setup processes are what make up the instance.
 
 ![ part of step 10](images/ec2-launch/step-15.png)
 
 Remember I said you can stop it, terminate it, and so on.
 
-Go back to the AWS page and click on Instances. At the top right, you will see the list of instances that are running and a lot of details about your instance. Now click on Instance State. You will see Stop as an option.
+Go back to the AWS page and click on Instances. At the top left, you will see the list of instances that are running and a lot of details about your instance. Now click on Instance State. You will see Stop as an option.
 
 ![ part of step 11](images/ec2-launch/step-16.png)
 ![ part of step 9](images/ec2-launch/step-17.png)
 
-The main reason to stop it is that AWS bills you a small amount for the time it is running. Remember, you only pay for what you are using. If you are using a free account, it will deduct from the free $200 credit that AWS gives you. If it is not free, you will have to pay for it yourself.
+The main reason to stop it is that AWS bills you a small amount for the time it is running. Remember, you only pay for what you are using. If you are using a free account, it will be deduct from the free tier credits provided by AWS . If it is not free account, you will have to pay for it yourself.
