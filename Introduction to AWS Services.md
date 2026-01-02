@@ -21,20 +21,6 @@ That is what the AWS Cloud Practitioner exam is about, being familiar with these
 
 The preparation for the exam can be accessed on **AWS Skill Builder,** while the theory aspect can be accessed through the **AWS Management Console,** where you can practice what you have learned.
 
-## What you can use EC2 Instance for 
-
-Machine Learning
-
-Data Analysis 
-
-Web Hosting
-
-Data Processing 
-
-Web  Applications Deployment 
-
-Software Testing and soon
-
 ## What Is Amazon EC2 (Amazon Elastic Compute Cloud)?
 
 In simple words, Amazon EC2 is a service that allows you to access compute resources such as CPU, memory, storage, networking, and more over the internet to run whatever  you need.
@@ -54,6 +40,21 @@ Something interesting again is that just the way you can go from a small standin
 You can add more to your instance to produce (more power) this is called **scaling up**.
 
 In the same way, when you no longer need the industrial fan, you can stop using it and go back to your smaller fan. EC2 instance can also be **scaled down** (less power), or even turned on and off, and you are only going to pay for the time it runs.
+
+## What you can use EC2 Instance for 
+
+Machine Learning
+
+Data Analysis 
+
+Web Hosting
+
+Data Processing 
+
+Web  Applications Deployment 
+
+Software Testing and soon
+
 
 ## EC2 Instance Types
 
@@ -183,4 +184,10 @@ Customers are responsible for anything **IN THE CLOUD**, which includes:
 
 These are the customer’s responsibilities.
 
-
+## What I covers in this document
+Understanding AWS Services
+What you can use EC2 Instance for 
+EC2 Instance Types
+Instance Pricing 
+how you can interact with AWS Service
+AWS Shared Responsibility Model
