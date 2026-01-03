@@ -1,1 +1,1 @@
-For images documentation
+ Image documentation for EC2 instance
