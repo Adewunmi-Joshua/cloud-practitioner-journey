@@ -59,3 +59,5 @@ Look at that person as **CloudWatch**.
 
 After the report is made, another person comes in to address the situation and directs people to the other cashiers to balance the workload and reduce stress on the cashier handling 30 people.
 That is the work of **Load Balancing**.
+
+More coming
