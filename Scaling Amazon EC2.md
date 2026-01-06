@@ -63,6 +63,7 @@ That is the work of **Load Balancing**.
 ## Elasticity
 
 This is the process of **automatically** adjusting compute based on demand.
+
 Let’s look at it this way: imagine you have an e-commerce website, but around December to April you always have huge traffic visiting your website. Elasticity makes it possible to add more compute to handle that huge traffic, and maybe around May to August when the traffic is low, it will reduce the compute back. This saves money because you only pay for what you use and need.
 
 **Auto Scaling**: This is the implementation of elasticity. It is about adding more compute when needed and reducing compute when it is not needed automatically, and Auto Scaling can only happen when it is added to your application.
