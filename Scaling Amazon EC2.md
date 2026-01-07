@@ -12,9 +12,9 @@ Scalability is the ability of a system to grow and handle more workload without 
 
 Scalability has two interesting parts:
 
-- Vertical Scaling (Scaling Up)
+- Vertical Scaling **(Scaling Up)**
 
-- Horizontal Scaling (Scaling Out)
+- Horizontal Scaling **(Scaling Out)**
 
 ## What Is Vertical Scaling?
 
