@@ -19,7 +19,7 @@ Then search for **EC2**. It is going to bring some other options with it, but lo
 ## step 2: Navigate to the EC2 Dashboard
 
 It is going to take you to another page with a **Launch Instance** orange button to the right, but before you click on it, look at the top tab. You will see **United States (N. Virginia)**. United States (N. Virginia) is the Region
-the Availability Zone would be something like us-east-1a. You can pick where you want to put your EC2 instance. You can change it to anywhere you want, although there are things that are going to determine how to decide that properly. I will discuss that in the future, including edge locations.
+the Availability Zone would be something like **us-east-1a**. You can pick where you want to put your EC2 instance. You can change it to anywhere you want, although there are things that are going to determine how to decide that properly. I will discuss that in the future, including edge locations.
 
 Now click on **Launch Instance**.
 
