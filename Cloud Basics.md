@@ -1,6 +1,6 @@
  
  
-## What's cloud computing all about?
+# What's cloud computing all about?
 
 Imagine you want a computer for your website, games, or whatever. Buying all the parts like the motherboard, CPU, storage, RAM, power supply, and cooling, then setting it up and keeping it running – that's a huge pain and costs a ton.
 
@@ -159,11 +159,11 @@ That is exactly how Software as a Service works.
 These words were mentioned earlier. This section gives a simple explanation and they will be explained in more detail in upcoming documents.
 
 
-# Region
+## Region
 A **region** is a geographical area (usually a country or part of the world) where cloud data centers are located.
 
 
-# Zones 
+## Zones 
 **Zones** are specific spots within a region where those data centers live. Every region has a few of these zones, and they team up to make sure things stay up and running and to keep things fast.
 
 **Example:**
