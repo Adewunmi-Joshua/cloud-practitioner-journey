@@ -163,7 +163,7 @@ These words were mentioned earlier. This section gives a simple explanation and 
 A **region** is a geographical area (usually a country or part of the world) where cloud data centers are located.
 
 
-## Zones 
+## Availability Zones AZ
 **Zones** are specific spots within a region where those data centers live. Every region has a few of these zones, and they team up to make sure things stay up and running and to keep things fast.
 
 **Example:**
