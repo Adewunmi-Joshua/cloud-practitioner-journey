@@ -160,23 +160,36 @@ These words were mentioned earlier. This section gives a simple explanation and 
 
 
 ## Region
+
 A **region** is a geographical area (usually a country or part of the world) where cloud data centers are located.
 
+Each region is independent and designed to keep services running smoothly.
 
-## Availability Zones AZ
-**Zones** are specific spots within a region where those data centers live. Every region has a few of these zones, and they team up to make sure things stay up and running and to keep things fast.
+---
 
-**Example:**
+## Availability Zones (AZ)
 
-Let's say Nigeria is a region.
+**Zones** are specific spots within a region where those data centers live.
 
-Inside Nigeria, Lagos might have several zones spot, maybe like:
+Every region has a few of these zones, and they team up to make sure things stay up and running and to keep things fast.
 
-- Victoria Island  (data center 1 is here)
-- Ikoyi   (data center 2 is here)
-- Lekki   (data center 3 is here)
+Each zone has its own:
+- Power
+- Cooling
+- Networking
 
-All these zones work together so that if one zone has an issue, others can still deliver resources without interruption.
+---
+
+## Example
+
+Let’s say **Nigeria is a region** (this is just an example).
+
+Inside that region, there are different **zones**, such as:
+- Zone A (data center 1)
+- Zone B (data center 2)
+- Zone C (data center 3)
+
+All these zones work together so that if one zone has an issue, the others can still deliver resources without interruption.
 
 
 # Management Console
