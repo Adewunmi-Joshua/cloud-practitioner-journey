@@ -199,7 +199,7 @@ It is usually a web based interface where you log in and use clicks to create, c
 
 ---
 
-### What This Topic Covers
+## What This Topic Covers
 - What cloud computing is  
 - Benefits of cloud computing
 - Cloud provider 
