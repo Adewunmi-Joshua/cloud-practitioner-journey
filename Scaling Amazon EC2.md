@@ -32,7 +32,7 @@ Just imagine it like upgrading your system to a better and more powerful one.
 
 This is adding more compute resources to the ones you already have in order to handle traffic load.
 
-Just imagine it like setting up different servers to help each other when there is large traffic, so one server will not be overwhelmed.
+Just imagine it like setting up different compute (servers) to help each other when there is large traffic, so one compute (server) will not be overwhelmed.
 
 ## Where CloudWatch and Load Balancing Come In
 
@@ -67,3 +67,15 @@ This is the process of **automatically** adjusting compute based on demand.
 Let’s look at it this way: imagine you have an e-commerce website, but around December to April you always have huge traffic visiting your website. Elasticity makes it possible to add more compute to handle that huge traffic, and maybe around May to August when the traffic is low, it will reduce the compute back. This saves money because you only pay for what you use and need.
 
 **Auto Scaling**: This is the implementation of elasticity. It is about adding more compute when needed and reducing compute when it is not needed automatically, and Auto Scaling can only happen when it is added to your application.
+
+
+## What This Topic Covers
+- Scalability
+- Vertical Scaling
+- Horizontal Scaling
+- CloudWatch
+- Load Balancing
+- Elasticity
+- Auto Scaling
+   
+
