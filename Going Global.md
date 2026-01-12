@@ -100,4 +100,26 @@ If one zone (data center) fails, another zone in the same region continues servi
 
 If the **entire region** fails and you are deployed across **multiple regions**, another region can act as a backup.
 
-More coming
+## What CloudFront Does
+
+CloudFront is AWS's global network that delivers websites, videos, and other thing super fast. It does this by saving copies (cache) of your content closer to your users, which makes things load quicker.
+
+## What's an Edge Location?
+
+Think of an edge location as a small data center specifically built to get content to people faster. It stores temporary copies of content so it's right there when someone asks for it.
+
+## Example to Clarify Things
+
+Let's say someone in Rwanda wants to watch a movie on Netflix.
+
+If Netflix kept all its movies really far away from Rwanda, that person would have a slower experience.
+
+That's where edge locations help out.
+
+To fix this, Netflix would put a copy of that movie in an AWS edge location near Rwanda. This means when the person in Rwanda hits play, the movie doesn't have to travel a huge distance, so it starts playing almost instantly.
+
+## What Low Latency Means
+
+Low latency just means there's no annoying wait time when you ask for something.
+
+Like when you're playing a video game you definitely don't want any lag, right? AWS is built to cut down on those delays.
