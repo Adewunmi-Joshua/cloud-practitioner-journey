@@ -102,7 +102,7 @@ If the **entire region** fails and you are deployed across **multiple regions**,
 
 ## What CloudFront Does
 
-CloudFront is AWS's global network that delivers websites, videos, and other thing super fast. It does this by saving copies (cache) of your content closer to your users, which makes things load quicker.
+CloudFront is AWS's global network that delivers websites, videos, and other thing super fast. It does this by saving copies **(cache)** of your content closer to your users, which makes things load quicker.
 
 ## What's an Edge Location?
 
