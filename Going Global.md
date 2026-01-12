@@ -23,7 +23,7 @@ Each zone has its own:
 - Networking
 
 
-## Example
+## Example to Clarify Things
 
 Let’s say **Nigeria is a region** (this is just an example).
 
@@ -41,7 +41,7 @@ Going global means deploying your resources in **different AWS regions** to incr
 This helps your application reach users closer to their location and remain available even if one region fails.
 
 
-## Example
+## Example to Clarify Things
 
 Imagine you love buying tea from a restaurant in your home country.
 
