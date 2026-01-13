@@ -106,7 +106,7 @@ CloudFront is AWS's global network that delivers websites, videos, and other thi
 
 ## What's an Edge Location?
 
-Think of an edge location as a small data center specifically built to get content to people faster. It stores temporary copies of content so it's right there when someone asks for it.
+Think of an **edge location** as a small data center specifically built to get content to people faster. It stores temporary copies of content so it's right there when someone asks for it.
 
 ## Example to Clarify Things
 
