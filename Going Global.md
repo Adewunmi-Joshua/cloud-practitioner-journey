@@ -155,3 +155,4 @@ It is very important to check the pricing offered in a region because some regio
 
 It is just like trying to get a ticket to watch a movie in a cinema in Nigeria and checking the price of that same movie in that cinema in another country. The pricing will be different because they are based in different countries with different environments to deal with, even though the cinema is still the same.
 
+More coming
