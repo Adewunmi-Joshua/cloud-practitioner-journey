@@ -147,7 +147,7 @@ It is just like you buying ice cream in a Shoprite store and they are telling yo
 ### Proximity
 Any company trying to choose a region must consider how close it is going to be to their customers because the closer, the better.
 
-Imagine people using your application are based in Africa and the application is deployed in the Asia Pacific region, which may cause low latency.
+Imagine people using your application are based in Africa and the application is deployed in the Asia Pacific region, which may cause high latency.
 
 
 ### Pricing
