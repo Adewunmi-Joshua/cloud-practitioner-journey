@@ -153,5 +153,5 @@ Imagine people using your application are based in Africa and the application is
 ### Pricing
 It is very important to check the pricing offered in a region because some regions are cheaper while some are not. All these are caused by factors like electricity, infrastructure, cooling systems, and so on.
 
-It is just like trying to get a ticket to watch a movie in a cinema in Nigeria and checking the price of that same movie in a cinema in another country. The pricing will be different because they are based in different countries with different environments to deal with, even though the cinema is still the same.
+It is just like trying to get a ticket to watch a movie in a cinema in Nigeria and checking the price of that same movie in that cinema in another country. The pricing will be different because they are based in different countries with different environments to deal with, even though the cinema is still the same.
 
