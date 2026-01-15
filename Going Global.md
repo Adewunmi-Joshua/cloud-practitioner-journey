@@ -123,3 +123,35 @@ To fix this, Netflix would put a copy of that movie in an AWS edge location near
 Low latency just means there's no annoying wait time when you ask for something.
 
 Like when you're playing a video game you definitely don't want any lag, right? AWS is built to cut down on those delays.
+
+
+## Choosing an AWS Region: Key Considerations
+
+Let talk about what you have to consider before choosing a region.
+
+**Compliance, Proximity, Feature, Pricing**
+
+
+### Compliance
+Compliance is very important in all the considerations because some resources must not leave some regions for security reasons, and it is part of the rule of the country that this resource must stay within the region. So if a company is choosing a region, it must be sure if the data is the kind that can leave the region or not.
+
+Let look at it like this: China has a rule and regulation called the Personal Information Protection Law (PIPL), which applies to big companies in China that hold a large amount of data of citizens, which must be stored within the country. Other countries like Europe have a rule called GDPR that companies must also follow.
+
+
+### Feature
+When choosing a region, a company must check if the features available meet up with what they need. Some regions have more features to offer their customers than others.
+
+It is just like you buying ice cream in a Shoprite store and they are telling you they don’t have the flavour you are asking for, but you can get it in another Shoprite store located in another area.
+
+
+### Proximity
+Any company trying to choose a region must consider how close it is going to be to their customers because the closer, the better.
+
+Imagine people using your application are based in Africa and the application is deployed in the Asia Pacific region, which may cause low latency.
+
+
+### Pricing
+It is very important to check the pricing offered in a region because some regions are cheaper while some are not. All these are caused by factors like electricity, infrastructure, cooling systems, and so on.
+
+It is just like trying to get a ticket to watch a movie in a cinema in Nigeria and checking the price of that same movie in a cinema in another country. The pricing will be different because they are based in different countries with different environments to deal with, even though the cinema is still the same.
+
