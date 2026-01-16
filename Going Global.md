@@ -82,6 +82,7 @@ This improves:
 - Reliability
 - Fault tolerance
 - Application uptime
+- Business run time
 
 
 ## Example to Clarify Things
