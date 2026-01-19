@@ -167,10 +167,10 @@ You just have to list what you want in the template, and it will take care of th
 For example, this is the instance that was launched a week ago using a CloudFormation template:
 
 Resources:
-  MyEC2Instance:
-    Type: AWS::EC2::Instance
-    Properties:
-      InstanceType: t2.micro
-      ImageId: ami-0abcdef1234567890
-      KeyName: my-key-pair
+ - MyEC2Instance:
+ - Type: AWS::EC2::Instance
+- Properties:
+- InstanceType: t2.micro
+- ImageId: ami-0abcdef1234567890
+- KeyName: my-key-pair
 
