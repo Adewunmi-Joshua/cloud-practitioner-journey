@@ -109,4 +109,4 @@ Go back to the AWS page and click on Instances. At the top left, you will see th
 ![ part of step 11](images/ec2-launch/step-16.png)
 ![ part of step 9](images/ec2-launch/step-17.png)
 
-The main reason to stop it is that AWS bills you a small amount for the time it is running. Remember, you only pay for what you are using. If you are using a free account, it will be deduct from the free tier credits provided by AWS . If it is not free account, you will have to pay for it yourself.
+The main reason to stop it is that AWS bills you a small amount for the time it is running. Remember, you only pay for what you are using. If you are using a free account, it will be deduct from the free tier credits provided by AWS . If it is not free account, you will have to pay for it yourself, you can also set up a budget of your choice using the budget option in the management console.
