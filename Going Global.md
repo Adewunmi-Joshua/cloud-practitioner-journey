@@ -156,4 +156,21 @@ It is very important to check the pricing offered in a region because some regio
 
 It is just like trying to get a ticket to watch a movie in a cinema in Nigeria and checking the price of that same movie in that cinema in another country. The pricing will be different because they are based in different countries with different environments to deal with, even though the cinema is still the same.
 
-More coming
+Let talk about CloudFormation.
+
+CloudFormation is an AWS service used to access, create, and update resources.  
+With CloudFormation, you can launch multiple resources at once using a template and maintain consistency with fewer errors when creating them.
+
+You don’t have to stress yourself setting everything up by yourself.  
+You just have to list what you want in the template, and it will take care of the rest for you while you focus on other things.
+
+For example, this is the instance that was launched a week ago using a CloudFormation template:
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0abcdef1234567890
+      KeyName: my-key-pair
+
