@@ -26,7 +26,7 @@ This is adding more power to the compute you already have, such as:
 
 - More storage 
 
-Just imagine it like upgrading your system to a better and more powerful one.
+Just imagine it like upgrading your computer to a better and more powerful one.
 
 ## What Is Horizontal Scaling?
 
