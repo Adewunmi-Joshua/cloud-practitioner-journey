@@ -2,7 +2,7 @@
  
 # What's cloud computing all about?
 
-Imagine you want a computer for your website, games, or whatever. Buying all the parts like the motherboard, CPU, storage, RAM, power supply, and cooling, then setting it up and keeping it running – that's a huge pain and costs a ton.
+Imagine you want a computer for your website, games, or whatever. Buying all the parts like the motherboard, CPU, storage, RAM, power supply, and cooling, then setting it up and keeping it running - that's a huge pain and costs a ton.
 
 Cloud computing lets you skip all that. Instead of building your own setup, you just rent space on the cloud. A few clicks, and you're good to go. The cool part is it all happens online, and you only pay for what you use.
 
