@@ -68,6 +68,24 @@ Let’s look at it this way: imagine you have an e-commerce website, but around 
 
 **Auto Scaling**: This is the implementation of elasticity. It is about adding more compute when needed and reducing compute when it is not needed automatically, and Auto Scaling can only happen when it is added to your application.
 
+# Let talk about Message and Queuing
+
+Starting with:
+
+## Message:
+
+This is the process whereby messages are sent from one section of an application to another.
+
+For example, let look at it like this: when you are making use of an e-commerce website, you pick your goods, you order them, and payment is successful. You then receive feedback that your order has been received, right? You will agree with me that this is a process where information moves from one section to another. That is what messaging is about.
+
+## Queuing:
+This lets you store, receive, and send data within the components of an application without worrying about losing the data.
+
+Let use this example: imagine you are going for a checkup, but by the time you get there, there are already many people, and the doctor is not around yet. However, the receptionist is available to attend to people and ask them if it is for a checkup, a personal talk with the doctor, and so on. As she asks everyone what they are there for, she writes it down, so when the doctor comes back, she can pass it to the doctor, and the doctor can start attending to people.
+
+Just look at queuing like that  it allows you to store, receive, and send data until the main process is ready to handle it.
+
+More additional note is coming
 
 ## What This Topic Covers
 - Scalability
