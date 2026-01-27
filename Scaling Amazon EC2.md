@@ -68,7 +68,7 @@ Let’s look at it this way: imagine you have an e-commerce website, but around 
 
 **Auto Scaling**: This is the implementation of elasticity. It is about adding more compute when needed and reducing compute when it is not needed automatically, and Auto Scaling can only happen when it is added to your application.
 
-# Let talk about Message and Queuing
+# Let's talk about Message and Queuing
 
 Starting with:
 
