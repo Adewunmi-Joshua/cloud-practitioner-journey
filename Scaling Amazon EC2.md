@@ -81,9 +81,9 @@ For example, let's look at it like this: when you are making use of an e-commerc
 ## Queuing:
 This lets you store, receive, and send data within the components of an application without worrying about losing the data.
 
-Let use this example: imagine you are going for a checkup, but by the time you get there, there are already many people, and the doctor is not around yet. However, the receptionist is available to attend to people and ask them if it is for a checkup, a personal talk with the doctor, and so on. As she asks everyone what they are there for, she writes it down, so when the doctor comes back, she can pass it to the doctor, and the doctor can start attending to people.
+Let's use this example: imagine you are going for a checkup, but by the time you get there, there are already many people, and the doctor is not around yet. However, the receptionist is available to attend to people and ask them if it is for a checkup, a personal talk with the doctor, and so on. As she asks everyone what they are there for, she writes it down, so when the doctor comes back, she can pass it to the doctor, and the doctor can start attending to people.
 
-Just look at **queuing** like that  it allows you to store, receive, and send data until the main process is ready to handle it.
+Just look at **queuing** like that; it allows you to store, receive, and send data until the main process is ready to handle it.
 
 ## Monolithic Applications and Microservice Architecture
 
