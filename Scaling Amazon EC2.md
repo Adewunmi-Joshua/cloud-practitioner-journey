@@ -85,6 +85,23 @@ Let use this example: imagine you are going for a checkup, but by the time you g
 
 Just look at **queuing** like that  it allows you to store, receive, and send data until the main process is ready to handle it.
 
+## Monolithic Applications and Microservice Architecture
+
+### Monolithic Application
+These are applications that have multiple components which come together for the application to work smoothly. This includes the database, payment system, server, and so on.
+
+This is also called tightly coupled, meaning if one component fails, it is going to affect the rest.
+
+Let look at it like this: when we are talking about a generator, there are different components that come together to make it work, and if one component fails to do its part, it affects the others. The same thing applies to a monolithic application.
+
+---
+
+### Microservice Architecture
+This is loosely coupled, meaning that if one component fails, other parts will continue working normally, which increases the availability and reliability of the application.
+
+Let look at it like this using solar panels: imagine a house having three solar panels on the roof. If one is faulty, it does not mean the other two will not work perfectly and generate power from the sun. That is how microservice architecture looks like.
+
+
 More additional note is coming
 
 ## What This Topic Covers
