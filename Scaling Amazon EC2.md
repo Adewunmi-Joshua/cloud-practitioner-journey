@@ -76,7 +76,7 @@ Starting with:
 
 This is the process whereby messages are sent from one section of an application to another.
 
-For example, let look at it like this: when you are making use of an e-commerce website, you pick your goods, you order them, and payment is successful. You then receive feedback that your order has been received, right? You will agree with me that this is a process where information moves from one section to another. That is what messaging is about.
+For example, let's look at it like this: when you are making use of an e-commerce website, You pick your goods, place an order and payment is successful. You then receive feedback that your order has been received, right? You will agree with me that this is a process where information moves from one section to another. That is what messaging is about.
 
 ## Queuing:
 This lets you store, receive, and send data within the components of an application without worrying about losing the data.
