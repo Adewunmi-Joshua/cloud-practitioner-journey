@@ -68,11 +68,11 @@ Let’s look at it this way: imagine you have an e-commerce website, but around 
 
 **Auto Scaling**: This is the implementation of elasticity. It is about adding more compute when needed and reducing compute when it is not needed automatically, and Auto Scaling can only happen when it is added to your application.
 
-# Let's talk about Message and Queuing
+# Let's talk about Messaging and Queuing
 
 Starting with:
 
-## Message:
+## Messaging:
 
 This is the process whereby messages are sent from one section of an application to another.
 
@@ -92,14 +92,14 @@ These are applications that have multiple components which come together for the
 
 This is also called tightly coupled, meaning if one component fails, it is going to affect the rest.
 
-Let look at it like this: when we are talking about a generator, there are different components that come together to make it work, and if one component fails to do its part, it affects the others. The same thing applies to a monolithic application.
+Let look at it like this: when we are talking about a generator, there are different components that come together to make it work, and if one component fails to do its part, it affects the others. The same thing applies to a **monolithic application**.
 
 ---
 
 ### Microservice Architecture:
 This is loosely coupled, meaning that if one component fails, other parts will continue working normally, which increases the availability and reliability of the application.
 
-Let look at it like this using solar panels: imagine a house having three solar panels on the roof. If one is faulty, it does not mean the other two will not work perfectly and generate power from the sun. That is how microservice architecture looks like.
+Let look at it like this using solar panels: imagine a house having three solar panels on the roof. If one is faulty, it does not mean the other two will not work perfectly and generate power from the sun. That is how **microservice architecture** looks like.
 
 
 More additional note is coming
