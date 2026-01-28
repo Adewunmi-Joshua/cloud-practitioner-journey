@@ -110,7 +110,7 @@ It is the same with Spot Instances. You are making use of AWS resources that are
 ### Dedicated Host
 I will also use an example here. A Dedicated Host is like buying a standing fridge for yourself, no sharing, it is just for you. You can control what happens to it because it is dedicated to you.
 
-Think of a Dedicated Host like buying a complete server rack for yourself for control and security reasons. It is expensive to set up and expensive to maintain.
+Think of a Dedicated Host like buying a complete server rack for yourself (physical server) for control and security reasons. It is expensive to set up and expensive to maintain.
 
 ---
 
