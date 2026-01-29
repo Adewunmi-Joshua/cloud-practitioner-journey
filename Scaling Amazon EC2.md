@@ -101,6 +101,18 @@ This is loosely coupled, meaning that if one component fails, other parts will c
 
 Let look at it like this using solar panels: imagine a house having three solar panels on the roof. If one is faulty, it does not mean the other two will not work perfectly and generate power from the sun. That is how **microservice architecture** looks like.
 
+Let talk about SNS and SQS service  
+
+## SNS service
+SNS service is one of AWS services that makes you send messages to people that subscribe to your service or a topic.  
+
+Let imagine it like this: imagine you sign in to a news website and you are asked to pick your interests in news and subscribe. As you do, you start receiving messages on what you subscribed to. That is what SNS does. It allows publishers to send messages to their subscribers.  
+
+## What about SQS service
+Do you remember what queuing is about—storing, sending, and receiving data without losing them?  
+
+That even if one component of an application fails to process data, it is not going to affect others or make the entire system stop working, because SQS will store the data in a queuing system until the issue is looked into.
+
 
 More additional note is coming
 
