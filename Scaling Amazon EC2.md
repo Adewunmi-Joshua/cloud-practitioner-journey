@@ -109,7 +109,7 @@ SNS service is one of AWS services that makes you send messages to people that s
 Let imagine it like this: imagine you sign in to a news website and you are asked to pick your interests in news and subscribe. As you do, you start receiving messages on what you subscribed to. That is what SNS does. It allows publishers to send messages to their subscribers.  
 
 ## What about Amazon SQS service
-Do you remember what queuing is about—storing, sending, and receiving data without losing them?  
+Do you remember what queuing is about-storing, sending, and receiving data without losing them?  
 
 That even if one component of an application fails to process data, it is not going to affect others or make the entire system stop working, because SQS will store the data in a queuing system until the issue is looked into.
 
