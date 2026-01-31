@@ -114,7 +114,18 @@ Do you remember what queuing is about-storing, sending, and receiving data witho
 That even if one component of an application fails to process data, it is not going to affect others or make the entire system stop working, because SQS will store the data in a queuing system until the issue is looked into.
 
 
-More additional note is coming (very soon)
+## Amazon EventBridge Service
+
+What this actually does is that it reacts to events that occur in a system according to rules that are set. For example, if an ECS instance is created, it can make it scale automatically. That is both an event and a rule.
+
+Let look at it like this: imagine you are frying your chicken in your kitchen, but suddenly there is smoke breaking out in your kitchen, which your smoke detector detects and raises an alarm. You will agree with me that this is both an event being detected and an action taken based on the rule that was set, which is to raise an alarm or even call the emergency service. Just look at EventBridge like that.
+
+### Difference Between SNS, SQS, and EventBridge
+
+- **SNS**: sends messages  
+- **SQS**: stores messages in a queue system  
+- **EventBridge**: catches or detects events that occur in a system  
+
 
 
 
