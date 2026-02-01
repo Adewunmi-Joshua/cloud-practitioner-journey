@@ -126,6 +126,17 @@ Let look at it like this: imagine you are frying your chicken in your kitchen, b
 - **SQS**: stores messages in a queue system  
 - **EventBridge**: catches or detects events that occur in a system  
 
+## What I cover in this document
+- Scaling and Monitoring in AWS
+- CloudWatch and Load Balancing
+- Elasticity
+- Auto Scaling
+- Messaging and Queuing
+- Monolithic Applications and Microservice Architecture
+- Amazon SNS and Amazon SQS service
+- Amazon EventBridge Service
+
+
 
 
 
