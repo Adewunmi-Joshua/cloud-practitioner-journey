@@ -1,6 +1,6 @@
 ## Serverless Computing
 
-In this section, I will be talking about what serverless computing is about. Not only that, but also managed services, unmanaged services, and fully managed services like Lambda, containers, Amazon EKS, ECS, and so on.
+In this section, I will be talking about what **serverless computing** is about. Not only that, but also **managed services**, **unmanaged services**, and **fully managed services** like **Lambda**, **containers**, **Amazon EKS**, **ECS**, and so on.
 
 So let start with serverless computing: this makes you deploy code or run your application without worrying about the underlying infrastructure. It is not that the computing does not have servers, that is why you should not worry. No, it is just that AWS will maintain that aspect for you while you focus on other aspects. So now let talk about the managed, unmanaged, and fully managed services.
 
