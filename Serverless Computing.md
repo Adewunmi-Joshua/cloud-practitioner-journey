@@ -13,8 +13,8 @@ This means AWS is going to give you the infrastructure components for you to dea
 ### Fully Managed Service
 This means AWS takes care of every heavy aspect for you, meaning you don’t have to worry about servers or underlying infrastructure while you focus on development.
 
-Let talk about Lambda  
-
+### Let talk about Lambda  
+---
 This is a serverless compute service that runs code based on events that occur, and you don't have to worry about servers because it automatically takes care of the underlying infrastructure. You can also scale up and down automatically based on requests at a time, and pay for only what you use.
 
 Let imagine it like this: imagine a boss hires an assistant to answer only calls or messages on behalf of him because of the overwhelming work. You will agree with me that it is a flexible job because the assistant answers calls when someone is calling and can take a rest if no call enters, and that is also an event that occurs. It is the calls or messages that trigger the assistant to work.
