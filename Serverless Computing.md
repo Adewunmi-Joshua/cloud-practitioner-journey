@@ -27,11 +27,11 @@ First, I want you to imagine this like those food flasks where you can have your
 
 What is stage, you may be thinking. Developers will be able to relate to this well, but let me explain. Every software or app we use today passes through the development stage, testing stage, and production stage.
 
-Development stage is the process of developing and getting everything together.
+1. Development stage: is the process of developing and getting everything together.
 
-Testing stage: this is where the developer has to check for any error and make sure everything is working well.
+2. Testing stage: this is where the developer has to check for any error and make sure everything is working well.
 
-Production stage: this is where the software or app is deployed and ready to be used by everybody.
+3. Production stage: this is where the software or app is deployed and ready to be used by everybody.
 
 But something funny is that everything may be working fine on my laptop without any worry in any of these stages, but when I give it to my friend or another developer to check it out on his computer, everything starts falling apart and not working.
 
