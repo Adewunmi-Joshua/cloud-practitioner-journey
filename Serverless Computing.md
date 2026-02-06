@@ -22,6 +22,7 @@ Let imagine it like this: imagine a boss hires an assistant to answer only calls
 Just look at Lambda like that: it is triggered to work based on events that occur and makes you pay only for the time you use it, without you managing servers. With this, you can use Lambda to host event-driven applications like gaming apps, news applications, e-commerce applications, and so on.
 
 ### Let move on to container
+---
 
 First, I want you to imagine this like those food flasks where you can have your stew, bread, and egg in them and package all what you need in one place. Same as container, it comes with all the packages that allow you to run your code in any stage of development.
 
