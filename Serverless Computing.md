@@ -39,6 +39,6 @@ That is where container comes in, because it comes with all what your code needs
 
 Now that you host with containers and everything is going fine, but suddenly the codebase becomes big, there is an increase in demand, and the setup becomes complicated and demanding more than one container.
 
-Don’t worry, “Scaling containers with orchestration” will get you covered because it lets you maintain multiple containers and scale automatically based on demand. Not only that, it also does load balancing for you.
+Don’t worry, “**Scaling containers with orchestration**” will get you covered because it lets you maintain multiple containers and scale automatically based on demand. Not only that, it also does load balancing for you.
 
 
