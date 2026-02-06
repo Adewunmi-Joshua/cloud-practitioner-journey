@@ -21,3 +21,24 @@ Let imagine it like this: imagine a boss hires an assistant to answer only calls
 
 Just look at Lambda like that: it is triggered to work based on events that occur and makes you pay only for the time you use it, without you managing servers. With this, you can use Lambda to host event-driven applications like gaming apps, news applications, e-commerce applications, and so on.
 
+### Let move on to container
+
+First, I want you to imagine this like those food flasks where you can have your stew, bread, and egg in them and package all what you need in one place. Same as container, it comes with all the packages that allow you to run your code in any stage of development.
+
+What is stage, you may be thinking. Developers will be able to relate to this well, but let me explain. Every software or app we use today passes through the development stage, testing stage, and production stage.
+
+Development stage is the process of developing and getting everything together.
+
+Testing stage: this is where the developer has to check for any error and make sure everything is working well.
+
+Production stage: this is where the software or app is deployed and ready to be used by everybody.
+
+But something funny is that everything may be working fine on my laptop without any worry in any of these stages, but when I give it to my friend or another developer to check it out on his computer, everything starts falling apart and not working.
+
+That is where container comes in, because it comes with all what your code needs to run and work the same on any computer, and it is good for updating, managing, faster, and lightweight.
+
+Now that you host with containers and everything is going fine, but suddenly the codebase becomes big, there is an increase in demand, and the setup becomes complicated and demanding more than one container.
+
+Don’t worry, “Scaling containers with orchestration” will get you covered because it lets you maintain multiple containers and scale automatically based on demand. Not only that, it also does load balancing for you.
+
+
