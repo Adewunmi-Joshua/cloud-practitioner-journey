@@ -166,7 +166,7 @@ These are AWS responsibilities.
 
 ---
 
-## Customer Responsibility (Security *of* the Cloud)
+## Customer Responsibility (Security *IN* the Cloud)
 
 Let’s go back to our example.
 
