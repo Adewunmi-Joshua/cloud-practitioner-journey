@@ -90,7 +90,7 @@ This is when you are paying for what you use. As I said in one of my documents, 
 
 ---
 
-### Savings Instance
+### Savings plan
 This creates a discount for any customer that stays dedicated to a particular service for one to three years. Imagine you are running an e-commerce website and you know you will need storage for at least three years. You will get a discount for that commitment.
 
 ---
