@@ -96,8 +96,7 @@ This creates a discount for any customer that stays dedicated to a particular se
 ---
 
 ### Reserved Instance
-This is similar to a Savings Instance. If you commit to using an instance for one or three years in the same region, you will get a discount that is slightly higher than a Savings Instance, and the commitment level is more flexible than others.
-
+This is similar to a Savings Instance. If you commit to using an instance for one or three years in the same region, Savings Plans are MORE flexible than Reserved Instances.
 ---
 
 ### Spot Instance
@@ -155,8 +154,7 @@ I want you to look at **AWS responsibility** like that.
 AWS is responsible for anything **OF THE CLOUD**, which includes:
 
 - Global infrastructure  
-- Storage  
-- Database  
+- Storage    
 - Networking  
 - Hardware  
 - Edge locations  
