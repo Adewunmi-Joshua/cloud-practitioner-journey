@@ -24,7 +24,7 @@ Lambda is just like that: it is triggered by events and you only pay for the tim
 
 ---
 
-### Let’s move on to Containers 🍲
+### Let’s move on to Containers 
 First, I want you to imagine this like those **food flasks** where you can have your stew, bread, and egg all packaged in one place. A container comes with all the "packages" (code, settings, and tools) that allow your code to run in any stage of development.
 
 **What is a "stage"?** Every app passes through three main steps:
