@@ -42,4 +42,19 @@ Now that you host with containers and everything is going fine, but suddenly the
 
 Don’t worry, “**Scaling containers with orchestration**” will get you covered because it lets you maintain multiple containers and scale automatically based on demand. Not only that, it also does load balancing for you.
 
+## Container Services in AWS
+
+Let talk about the last section here, which is container services, but they do different things.
+
+Amazon ECS, Amazon EKS, Amazon ECR, Fargate.
+
+I will use a table here to explain it in a little way.
+
+| Service      | Description |
+|--------------|-------------|
+| Amazon ECR   | It is used for storing container images |
+| Amazon ECS   | It is fully managed by AWS and runs containers |
+| Amazon EKS   | It is used for running Kubernetes containers |
+| Fargate      | It allows users to run containers without worrying about server side |
+
 
