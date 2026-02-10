@@ -1,48 +1,51 @@
-# Serverless Computing + Containers (ECS / EKS / Fargate)
+### Serverless Computing + Containers (EKS / ECS / Fargate)
 
-In this section, I will be talking about what **serverless computing** is about. Not only that, but also **managed services**, **unmanaged services**, and **fully managed services**, including **Lambda**, **containers**, **Amazon EKS**, **ECS**, and more.
+In this section, I will be talking about what **serverless computing** is about. Not only that, but also managed services, unmanaged services, and fully managed services, Lambda, containers, Amazon EKS, ECS, and so on.
 
-## Understanding Service Levels
+So let’s start with serverless computing: this makes you deploy code or run your application without worrying about the underlying infrastructure. It is not that the computing does not have servers—of course it does! It is just that AWS will maintain that aspect for you while you focus on your work. 
 
-1. **Unmanaged Service**
-This means AWS gives you the infrastructure components, but you deal with everything else: customer data, firewall configuration, data encryption, maintenance, and networking. This gives you **full control** but comes with much more to maintain.
+#### 1. Unmanaged Service
+This means AWS gives you the infrastructure components for you to deal with. From customer data, firewall configuration, and data encryption to maintenance and networking. This gives you **full control**, but comes with more things you have to maintain yourself.
 
-2. **Managed Service**
-This means AWS takes care of most of the work for you, like setup, updates, and security patches. Although you may still deal with some configuration and scaling settings, it comes with less manual work but also less control.
+#### 2. Managed Service
+This means AWS takes care of most of the work for you, like setup, updates, scaling, and security patches. Although you may still deal with some configuration depending on the service, it comes with less manual work.
 
-3. **Fully Managed (Serverless) Service**
-This means AWS takes care of every heavy aspect for you. You don’t have to worry about servers or underlying infrastructure at all. You focus entirely on development while AWS handles the scaling and availability.
-
----
-
-## Amazon Lambda (Serverless Compute)
-Lambda is a serverless compute service that runs code based on **events**. You don't have to worry about servers because AWS automatically takes care of the underlying infrastructure. It scales up and down automatically based on demand, and you **pay only for the time your code is running**.
-
-**The Assistant Analogy:**
-Imagine a boss hires an assistant to answer calls only when they come in. It is a flexible job because the assistant works when the phone rings (**an event**) and rests when it doesn't. You only pay the assistant for the time spent on the phone. 
-
-Just like that, Lambda is "triggered" by events (like a file upload or a website click). It is perfect for event-driven applications like gaming apps, news alerts, or e-commerce processing.
+#### 3. Fully Managed Service
+This means AWS takes care of every heavy aspect for you. You don’t have to worry about servers or the underlying infrastructure at all while you focus on development.
 
 ---
 
-## Containers (The Food Flask )
-Imagine a food flask where you package your stew, bread, and egg all in one place. A **Container** is similar—it packages your code with every library and setting it needs to run.
+### Let’s talk about Lambda (Amazon Cloud Service)
+This is a serverless compute service that runs code based on **events** that occur. You don't have to worry about servers because it automatically takes care of the infrastructure. It scales up and down automatically based on requests, and you only pay for what you use.
 
-### Why do we need them?
-Software goes through different stages: **Development** (building it), **Testing** (checking for errors), and **Production** (ready for users). 
+**Imagine it like this:** Imagine a boss hires an assistant to answer only calls or messages because he has too much work. You will agree that it is a flexible job because the assistant only answers when someone is calling and rests when there are no calls. That call is the "event" that triggers the assistant to work. 
 
-A common problem is when code works fine on a developer's laptop but "breaks" when moved to a different computer. This is where containers come in! Because everything the code needs is inside the "flask," it works exactly the same on any computer. They are lightweight, fast, and easy to manage.
-
-### Container Orchestration
-When your app grows and you need hundreds of containers, you need **Orchestration**. This is a system that manages all your containers, handles **Scaling** (adding more when busy), and **Load Balancing** (distributing traffic so no container gets overwhelmed).
+Lambda is just like that: it is triggered by events and you only pay for the time it is actually working, without you managing any servers. You can use it for gaming apps, news apps, or e-commerce.
 
 ---
 
-## AWS Container Services
+### Let’s move on to Containers 🍲
+First, I want you to imagine this like those **food flasks** where you can have your stew, bread, and egg all packaged in one place. A container comes with all the "packages" (code, settings, and tools) that allow your code to run in any stage of development.
 
-| Service | Description | Simple Role |
-| :--- | :--- | :--- |
-| **Amazon ECR** | Elastic Container Registry | **The Warehouse:** Used for storing and managing your container images. |
-| **Amazon ECS** | Elastic Container Service | **The AWS Manager:** A highly scalable, high-performance way to run containers. |
-| **Amazon EKS** | Elastic Kubernetes Service | **The Open-Source Manager:** Used for running Kubernetes containers on AWS. |
-| **AWS Fargate** | Serverless Container Engine | **The Hands-Off Engine:** Allows you to run containers (ECS or EKS) without managing any servers. |
+**What is a "stage"?** Every app passes through three main steps:
+1. **Development stage:** Getting everything together.
+2. **Testing stage:** Checking for errors.
+3. **Production stage:** Deploying it for everyone to use.
+
+Sometimes, code works fine on a developer's laptop, but when they give it to a friend, everything starts falling apart! **Containers solve this.** Because the code is inside the "flask" with everything it needs, it works the same on any computer. It is lightweight, fast, and easy to manage.
+
+
+
+### Scaling with Orchestration
+When your app gets huge and you need more than one container, **Orchestration** gets you covered. It maintains multiple containers, scales them automatically based on demand, and does **load balancing** (sharing the traffic) for you.
+
+---
+
+### AWS Container Services
+
+| Service | Description |
+| :--- | :--- |
+| **Amazon ECR** | The **Warehouse** for storing your container images. |
+| **Amazon ECS** | The **AWS Manager** that runs your containers. |
+| **Amazon EKS** | The **Manager** used for running Kubernetes containers. |
+| **Fargate** | The **Serverless Engine** that runs containers without you worrying about servers. |
