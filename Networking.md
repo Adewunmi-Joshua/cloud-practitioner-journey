@@ -2,9 +2,8 @@
 
 Networking is one of the very important parts in the cloud learning journey and an interesting part also.
 
-So let dive in and talk about VPC (Virtual Private Cloud), Subnet, public subnet, and private subnet.
+So let dive in and talk about VPC (Virtual Private Cloud), Subnet, public subnet, and private subnet and more.
 
----
 
 ## What Is Cloud Networking?
 
@@ -28,7 +27,7 @@ Same as VPC, it is your private place that you own in the cloud virtually to lau
 
 ## What Is a Subnet?
 
-This allows you to arrange your resources into public and private sections and is used to isolate and share resources publicly.
+This allows you to arrange your resources into **public** and **private** sections and is used to isolate and share resources publicly.
 
 ### Subnet Analogy
 
@@ -45,3 +44,5 @@ When the resources are grouped in the private subnet, it is not for the public t
 But remember, you can give access to trusted people.
 
 The same thing applies to private subnet: you can give access to what the subnet is holding to the developers and engineers that are permitted to work on it.
+
+More is coming soon
