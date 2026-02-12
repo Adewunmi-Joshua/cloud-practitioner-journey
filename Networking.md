@@ -21,7 +21,7 @@ Imagine you are living in a big compound with your family. Even though you share
 ### What Is a Subnet?
 This allows you to arrange your resources into **public** and **private** sections. It is used to isolate your resources so you can share some publicly and keep others hidden.
 
-**Subnet Analogy (The House):**
+* **Subnet Analogy (The House):**
 Let’s go back to your house in the compound. Imagine your house has different rooms
 
 1. **Public Subnet (The Parlor):**
