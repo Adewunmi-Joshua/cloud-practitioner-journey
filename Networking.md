@@ -30,5 +30,13 @@ You will agree with me that if a visitor arrives, the first place they are allow
 2. **Private Subnet (The Bedroom):**
 Your bedroom is not for the public to enter because it contains your personal belongings and you need privacy. In the cloud, this is where we group things like **Databases, storage, and backend servers.** Just like your room, it is a restricted section.
 
+**How they talk to each other:**
+Even though your room is private, you can still give access to trusted people (like developers or engineers). Also, your "Parlor" (the website) can talk to your "Bedroom" (the database) to get information, but the visitor at the main gate cannot go straight into your bedroom!
 
-More is coming.
+---
+
+### Staying Secure: The Security Guard
+To make your house even safer, AWS has two types of "guards":
+
+* **Network ACL (NACL):** Think of this as a **Security Guard at the gate of the house**. He checks everyone coming into the parlor or the bedroom area. (This works at the **Subnet** level).
+* **Security Groups:** Think of this like a **Bouncer standing at the door of a specific room**. He checks the ID of anyone trying to enter that specific door. (This works at the **Instance** level).
