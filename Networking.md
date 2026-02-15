@@ -15,6 +15,11 @@ Imagine you are living in a big compound with your family. Even though you share
 
 **The Internet Gateway (IGW):** Every compound needs a **Main Gate**. In AWS, this is the Internet Gateway. Without this gate, your VPC is locked shut no one can come in from the internet, and you can’t get out.
 
+## Important of VPC
+1. Increase security
+2. Save Time
+3. Conrol enviroment
+
 
 ---
 
