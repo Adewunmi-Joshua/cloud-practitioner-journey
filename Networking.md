@@ -45,3 +45,41 @@ To make your house even safer, AWS has two types of "guards":
 
 * **Network ACL (NACL):** Think of this as a **Security Guard at the gate of the house**. He checks everyone coming into the parlor or the bedroom area. (This works at the **Subnet** level).
 * **Security Groups:** Think of this like a **Bouncer standing at the door of a specific room**. He checks the ID of anyone trying to enter that specific door. (This works at the **Instance** level).
+
+
+# Ways to Connect to the AWS Cloud
+
+Let talk about some other ways to connect to the AWS Cloud.
+
+We have AWS Client VPN, AWS Site-to-Site VPN, AWS PrivateLink, and AWS Direct Connect.
+
+---
+
+## AWS Client VPN
+
+AWS Client VPN: This is a type of networking service that allows organisations to connect their remote workers and allow them to access their cloud resources in a safe way, and it is a fully managed elastic VPN service that automatically scales up and down based on user demand, which means you don't have to worry about any infrastructure layer.
+
+Let imagine it like this: you have a company and most of your workers are spread across the globe, but they need to access your company AWS resources in the cloud, which you will want them to access in a safe way. That is where AWS Client VPN comes in because that is what it does.
+
+---
+
+## AWS Site-to-Site VPN
+
+AWS Site-to-Site VPN: This is good if a company wants to connect their on-premises data center to their AWS Cloud resources in a safe way, and it is good to connect two branch offices together and allow them to access the company cloud resources, and the data stays encrypted during the process and safe.
+
+---
+
+## AWS PrivateLink
+
+AWS PrivateLink: Some companies prefer a simple and private way to connect without using AWS Client VPN or AWS Site-to-Site VPN. If you are that company, AWS PrivateLink is for you because it is a highly available and scalable network that enables private connectivity between Amazon Virtual Private Clouds (VPC), AWS services, and on-premises networks without using public IPs, internet gateways, NAT devices, or firewalls.
+
+Even though the preceding connections are highly available and scalable, traffic jams are possible because you’re using the same connection as other clients. That's why for some use cases, you might need a dedicated private connection with a lot of bandwidth.
+
+---
+
+## AWS Direct Connect
+
+AWS Direct Connect: This allows you to have a dedicated connection from your organisation to AWS.
+
+I don’t know if you have seen where they run fiber optic cables through the ocean to different locations and pass through different countries. That is similar to how Direct Connect looks like. However, it does not literally run fiber directly from your office to AWS by itself. It connects through AWS Direct Connect locations, which then provide a private dedicated connection from your organisation to your AWS resources.
+
