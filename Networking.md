@@ -47,7 +47,7 @@ To make your house even safer, AWS has two types of "guards":
 * **Security Groups:** Think of this like a **Bouncer standing at the door of a specific room**. He checks the ID of anyone trying to enter that specific door. (This works at the **Instance** level).
 
 
-# Ways to Connect to the AWS Cloud
+## Ways to Connect to the AWS Cloud
 
 Let talk about some other ways to connect to the AWS Cloud.
 
