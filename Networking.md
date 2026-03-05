@@ -83,3 +83,20 @@ AWS Direct Connect: This allows you to have a dedicated connection from your org
 
 I don’t know if you have seen where they run fiber optic cables through the ocean to different locations and pass through different countries. That is similar to how Direct Connect looks like. However, it does not literally run fiber directly from your office to AWS by itself. It connects through AWS Direct Connect locations, which then provide a private dedicated connection from your organisation to your AWS resources.
 
+## Elastic IP
+
+Elastic IP is a static public IP address provided by AWS.
+
+Normally, when an EC2 instance is stopped and started again, AWS may assign a new public IP address. This can cause issues if services or users rely on a fixed address.
+
+Elastic IP solves this problem by providing a permanent public IP address that can be attached to an EC2 instance.
+
+This is useful for
+
+Web servers
+
+Public APIs
+
+DNS mapping
+
+For example, a domain name can point to the Elastic IP, ensuring that users always reach the same server even if the instance is restarted.
