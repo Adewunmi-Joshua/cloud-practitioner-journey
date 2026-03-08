@@ -1,4 +1,4 @@
-# Storage
+# Storage ( AWS )
 
 In this section I will be discussing what cloud storage is, types of cloud storage, Amazon S3, S3 storage classes and so on.
 
