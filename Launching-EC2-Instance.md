@@ -1,4 +1,4 @@
-# Launching an EC2 Instance
+# Launching an EC2 Instance (AWS)
 
 I will be using this section to demonstrate how to launch an EC2 instance.
 
