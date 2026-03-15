@@ -60,4 +60,34 @@ Another good thing about Amazon Elastic Block Store is that it allows you to cre
 
 This makes it a reliable storage option when running applications that require consistent and durable storage.
 
-More to be added soon.
+## Let’s talk about EBS Snapshot
+
+An EBS snapshot is a point-in-time backup of an EBS volume that can be used to restore data or create new volumes later.
+
+To make this more clear, let’s look at it like this.
+
+An EBS volume, which is Elastic Block Store volume, is just like a hard drive in your computer/system.
+
+An EBS snapshot is like taking a picture of the hard drive at a particular moment for backup in case of any disaster that occurs. AWS stores these snapshots in Amazon S3 bucket behind the scenes. 
+
+You can later use the snapshot to create a new EBS volume for your EC2 instance so that no data is lost, especially when there is important data in the EBS volume.
+
+---
+
+## How to work with EBS Snapshot
+
+First, you have to create a snapshot of the EBS volume.
+
+This is going to capture the data at that moment.
+
+Secondly, you have to save the snapshot, which AWS safely stores for you and can be used for backup and disaster recovery.
+
+Thirdly, restore the snapshot when needed.
+
+You can do this by using it to create a new EBS volume and then attaching it to your EC2 instance.
+
+---
+
+## Some benefits that come with EBS Snapshot
+
+Some benefits that come with EBS snapshots are that they are incremental. What I mean is that when you take the first snapshot, it copies all the data, but the next snapshot only keeps the changes, not the entire data again.
