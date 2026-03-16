@@ -91,3 +91,13 @@ You can do this by using it to create a new EBS volume and then attaching it to 
 ## Some benefits that come with EBS Snapshot
 
 Some benefits that come with EBS snapshots are that they are incremental. What I mean is that when you take the first snapshot, it copies all the data, but the next snapshot only keeps the changes, not the entire data again.
+
+## Let’s talk about Data Lifecycle Manager
+
+This is the process of creating, managing, and deleting snapshots automatically.
+
+Let’s look at it like this using a bank's record-keeping.
+
+By law, banks have to keep customer records for 5 to 7 years. Imagine a bank with 8 million customers. Instead of a human manually trying to save every single statement, the Data Lifecycle Manager automatically takes a snapshot of the whole database where those records live.
+
+It follows a 'retention rule it keeps that snapshot for exactly 7 years for compliance. But the second that time is up, it deletes it. Doing this manually for 8 million people would be a nightmare and full of mistakes but the Data lifecycle manager does it all in the background without you ever having to worry about it.
