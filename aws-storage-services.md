@@ -101,3 +101,5 @@ Let’s look at it like this using a bank's record-keeping.
 By law, banks have to keep customer records for 5 to 7 years. Imagine a bank with 8 million customers. Instead of a human manually trying to save every single statement, the Data Lifecycle Manager automatically takes a snapshot of the whole database where those records live.
 
 It follows a 'retention rule it keeps that snapshot for exactly 7 years for compliance. But the second that time is up, it deletes it. Doing this manually for 8 million people would be a nightmare and full of mistakes but the Data lifecycle manager does it all in the background without you ever having to worry about it.
+
+More to be added soon.
