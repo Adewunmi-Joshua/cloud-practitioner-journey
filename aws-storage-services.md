@@ -13,7 +13,7 @@ Another interesting thing is that you are only going to pay for what you use, wh
 
 ---
 
-## Type of Storage
+## Type of Storages
 
 ### Block Storage
 
