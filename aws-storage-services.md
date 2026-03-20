@@ -181,4 +181,47 @@ Objects are stored virtually inside a bucket, and a bucket can hold **unlimited 
 
 S3 also has an **object lifecycle feature** that automatically moves objects between storage classes based on rules you set to reduce cost.
 
+---
 
+## S3 Storage Classes
+
+Before we dive into the types, let’s understand what S3 storage classes are.
+
+S3 storage classes are different ways you can store your data based on how often you access it and your budget.
+
+---
+
+### Types of S3 Storage Classes
+
+**S3 Standard**  
+This is good if the data stored is used regularly and you want fast access and high availability. It is more expensive and used for websites and applications.
+
+---
+
+**S3 Intelligent-Tiering**  
+This is very good if you want automatic movement of data based on usage to save money. It adjusts storage automatically depending on access use.
+
+---
+
+**S3 Standard-IA (Infrequent Access)**  
+This is used for data that is accessed occasionally. It is good for backups and is more cost-effective than S3 Standard.
+
+---
+
+**S3 One Zone-IA**  
+This is cheaper because data is stored in only one availability zone. It is good for data that does not need high durability or backup.
+
+---
+
+**S3 Glacier Instant Retrieval**  
+This is good if you want fast access to archived data and still want low cost.
+
+---
+
+**S3 Glacier Flexible Retrieval**  
+This is good for data that is rarely accessed. Retrieval is slower, and it is suitable for backup and disaster recovery.
+
+---
+
+**S3 Glacier Deep Archive**  
+This is the cheapest storage class. It is good for data that is accessed very rarely, like compliance data (for example, bank records kept for many years).
