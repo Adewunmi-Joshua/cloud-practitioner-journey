@@ -15,7 +15,7 @@ Another interesting thing is that you are only going to pay for what you use, wh
 
 ## Type of Storages
 
-### Block Storage
+# Block Storage
 
 This is a type of high performance storage that stores data in fixed block sizes that attach to your EC2 instance when created, just like a hard drive, and provides persistent and low latency storage.
 
@@ -102,7 +102,7 @@ By law, banks have to keep customer records for 5 to 7 years. Imagine a bank wit
 
 It follows a 'retention rule it keeps that snapshot for exactly 7 years for compliance. But the second that time is up, it deletes it. Doing this manually for 8 million people would be a nightmare and full of mistakes but the Data lifecycle manager does it all in the background without you ever having to worry about it.
 
-## Object Storage
+# Object Storage
 
 ### Let’s talk about Object Storage
 
