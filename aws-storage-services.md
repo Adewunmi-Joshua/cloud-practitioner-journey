@@ -106,41 +106,41 @@ It follows a 'retention rule it keeps that snapshot for exactly 7 years for comp
 
 ### Let’s talk about Object Storage
 
-Object storage is a cloud-based architecture that allows you to store a large amount of mostly unstructured data, which can be videos, images, and so on.
+Object storage is a cloud-based way to store a large amount of data, mostly unstructured data like videos, images, and so on.
 
-All these objects come with an ID, attributes, and metadata for the purpose of retrieval. But all these are not stored in a folder format. Instead, they are stored together in a single data pool (data lake).
+All these objects come with an ID, attributes, and metadata to help you find and manage them. One important thing is that they are not stored in folders like the way we store files on our computer. Instead, they are stored together in a single storage space.
 
 ---
 
 ### Understanding Objects
 
-Let me clarify this very well.
+Let me explain this very well.
 
-An object is just a file we all store on our system every day. It can be a media file, document, text file, internet file, or programming file, and so on.
+An object is just a file we store on our system every day. It can be a media file, document, text file, or even programming files.
 
-All these files come with:
+Each object comes with:
 
-- **ID (Identifier)**: This provides a unique identity for the file.
-- **Metadata**: This provides more details about the file, like the date it was created, size, and other properties.
-- **Attributes**: These also provide additional information about the file.
+- **ID** – this is the unique identifier of the file  
+- **Metadata** – this gives more details about the file like date created, size, etc.  
+- **Attributes** – also gives extra information about the file  
 
 ---
 
 ### Types of Data
 
-Objects can come in two different forms:
+Objects can come in two forms:
 
 **Structured Data**  
-This is data that is organized in a table format (rows and columns), like a database.
+This is data arranged in rows and columns like a table (database).
 
 **Unstructured Data**  
-This is data that does not follow a row and column format, such as:
+This is data that does not follow rows and columns like:
 
-- Media files  
+- Images  
+- Videos  
 - Text files  
 - Social media posts  
 - Sensor data  
-- Customer interaction data  
 
 Object storage is mainly designed for **unstructured data**.
 
@@ -148,80 +148,83 @@ Object storage is mainly designed for **unstructured data**.
 
 ## Amazon S3 (Simple Storage Service)
 
-Now let’s move to what we call Amazon S3 bucket, which is used for object storage.
+Now let’s move to Amazon S3 bucket, which is used for object storage.
 
-Amazon S3 is an AWS service that allows users to store any amount of data as objects using buckets. It is:
+Amazon S3 is an AWS service that allows you to store any amount of data using buckets.
+
+It is:
 
 - Scalable  
 - Secure  
 - Durable  
 
-Data is stored across multiple availability zones in a region for reliability.
+Your data is stored across different availability zones in a region for safety.
 
 Each object stored in S3 comes with:
 
 - Data  
+- Key (this is like the file name/path)  
 - ID  
-- Key  
 - Metadata  
 
-All these help you to access your object easily.
-
-Objects are stored virtually inside a bucket, and a bucket can hold **unlimited data**.
+All your files are stored inside a bucket, and a bucket can hold a very large amount of data.
 
 ---
 
 ### What You Can Use S3 For
 
 - Static website hosting  
-- Content distribution  
 - Application data storage  
-- On-premises backup  
+- Backup  
+- Content distribution  
 - And more  
 
-S3 also has an **object lifecycle feature** that automatically moves objects between storage classes based on rules you set to reduce cost.
+S3 also has something called **lifecycle**, which can automatically move your data between storage classes based on rules you set to save cost.
 
 ---
 
 ## S3 Storage Classes
 
-Before we dive into the types, let’s understand what S3 storage classes are.
+Before we go into the types, let’s understand this.
 
-S3 storage classes are different ways you can store your data based on how often you access it and your budget.
+S3 storage classes are different ways to store your data based on:
+
+- How often you use it  
+- Your budget  
 
 ---
 
 ### Types of S3 Storage Classes
 
 **S3 Standard**  
-This is good if the data stored is used regularly and you want fast access and high availability. It is more expensive and used for websites and applications.
+Good for data you use regularly. Fast access and high availability, but more expensive.
 
 ---
 
 **S3 Intelligent-Tiering**  
-This is very good if you want automatic movement of data based on usage to save money. It adjusts storage automatically depending on access use.
+This automatically moves your data based on how often it is used to help you save money.
 
 ---
 
 **S3 Standard-IA (Infrequent Access)**  
-This is used for data that is accessed occasionally. It is good for backups and is more cost-effective than S3 Standard.
+Used for data you don’t access often. Good for backup and cheaper than standard.
 
 ---
 
 **S3 One Zone-IA**  
-This is cheaper because data is stored in only one availability zone. It is good for data that does not need high durability or backup.
+Cheaper because data is stored in only one availability zone. Not good for very important data.
 
 ---
 
 **S3 Glacier Instant Retrieval**  
-This is good if you want fast access to archived data and still want low cost.
+Low cost and still fast when you want to access your data.
 
 ---
 
 **S3 Glacier Flexible Retrieval**  
-This is good for data that is rarely accessed. Retrieval is slower, and it is suitable for backup and disaster recovery.
+Very cheap but slower to access. Good for backup and disaster recovery.
 
 ---
 
 **S3 Glacier Deep Archive**  
-This is the cheapest storage class. It is good for data that is accessed very rarely, like compliance data (for example, bank records kept for many years).
+The cheapest option. Good for data you rarely access, like long-term records (e.g., bank data).
