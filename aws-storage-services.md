@@ -102,4 +102,83 @@ By law, banks have to keep customer records for 5 to 7 years. Imagine a bank wit
 
 It follows a 'retention rule it keeps that snapshot for exactly 7 years for compliance. But the second that time is up, it deletes it. Doing this manually for 8 million people would be a nightmare and full of mistakes but the Data lifecycle manager does it all in the background without you ever having to worry about it.
 
-More to be added soon.
+## Object Storage
+
+### Let’s talk about Object Storage
+
+Object storage is a cloud-based architecture that allows you to store a large amount of mostly unstructured data, which can be videos, images, and so on.
+
+All these objects come with an ID, attributes, and metadata for the purpose of retrieval. But all these are not stored in a folder format. Instead, they are stored together in a single data pool (data lake).
+
+---
+
+### Understanding Objects
+
+Let me clarify this very well.
+
+An object is just a file we all store on our system every day. It can be a media file, document, text file, internet file, or programming file, and so on.
+
+All these files come with:
+
+- **ID (Identifier)**: This provides a unique identity for the file.
+- **Metadata**: This provides more details about the file, like the date it was created, size, and other properties.
+- **Attributes**: These also provide additional information about the file.
+
+---
+
+### Types of Data
+
+Objects can come in two different forms:
+
+**Structured Data**  
+This is data that is organized in a table format (rows and columns), like a database.
+
+**Unstructured Data**  
+This is data that does not follow a row and column format, such as:
+
+- Media files  
+- Text files  
+- Social media posts  
+- Sensor data  
+- Customer interaction data  
+
+Object storage is mainly designed for **unstructured data**.
+
+---
+
+## Amazon S3 (Simple Storage Service)
+
+Now let’s move to what we call Amazon S3 bucket, which is used for object storage.
+
+Amazon S3 is an AWS service that allows users to store any amount of data as objects using buckets. It is:
+
+- Scalable  
+- Secure  
+- Durable  
+
+Data is stored across multiple availability zones in a region for reliability.
+
+Each object stored in S3 comes with:
+
+- Data  
+- ID  
+- Key  
+- Metadata  
+
+All these help you to access your object easily.
+
+Objects are stored virtually inside a bucket, and a bucket can hold **unlimited data**.
+
+---
+
+### What You Can Use S3 For
+
+- Static website hosting  
+- Content distribution  
+- Application data storage  
+- On-premises backup  
+- And more  
+
+S3 also has an **object lifecycle feature** that automatically moves objects between storage classes based on rules you set to reduce cost.
+
+
