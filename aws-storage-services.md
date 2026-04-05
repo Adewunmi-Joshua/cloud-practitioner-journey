@@ -228,3 +228,5 @@ Very cheap but slower to access. Good for backup and disaster recovery.
 
 **S3 Glacier Deep Archive**  
 The cheapest option. Good for data you rarely access, like long-term records (e.g., bank data).
+
+More to be added soon.
