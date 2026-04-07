@@ -20,7 +20,7 @@ for $3 whenever you need it, with no extra charges. You get access to the book, 
 your $3, and that’s all.
 
 Cloud works in a similar way. You are renting a computer (server) over the internet.
-If you use it for 5 hours in a day, you are only charged for those 5 hours—nothing more.
+If you use it for 5 hours in a day, you are only charged for those 5 hours nothing more.
 
 ---
 
