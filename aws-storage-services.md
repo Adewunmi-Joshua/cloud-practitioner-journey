@@ -229,4 +229,22 @@ Very cheap but slower to access. Good for backup and disaster recovery.
 **S3 Glacier Deep Archive**  
 The cheapest option. Good for data you rarely access, like long-term records (e.g., bank data).
 
-More to be added soon.
+## Let talk about file storage  
+
+### What is cloud file storage
+
+In simple terms, it is the process of storing your files as folders in the cloud that gives users access to create, delete, modify, and more.
+
+Just look at it like the way you create folders and files on your system. Another interesting thing is that it gives access to the same files for multiple users.
+
+---
+
+### Now let talk about the benefit  
+
+When using EFS, it automatically stores your data across multiple availability zones, so in case there is a failure in one zone, the others can act as backup, creating reliability.
+
+Another thing about Elastic File Storage is that it gives access for people to share and work on the same file at the same time. That is why companies use it for collaboration, and it is also good for disaster recovery.
+
+Not only that, Elastic File Storage also has the capacity to grow as you add more files without worrying about storage limits, and you only pay for what you use.
+
+More to be added soon
