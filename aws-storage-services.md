@@ -247,4 +247,30 @@ Another thing about Elastic File Storage is that it gives access for people to s
 
 Not only that, Elastic File Storage also has the capacity to grow as you add more files without worrying about storage limits, and you only pay for what you use.
 
-More to be added soon
+## Now let move to Amazon EFS Storage Classes  
+
+### What is that actually?
+
+This is a way you store your data based on how often you access it.
+
+So now let go ahead and talk about the classes, which define how your data is stored according to your needs.
+
+---
+
+### EFS Standard  
+
+This is designed for data that is accessed regularly.
+
+The data is stored across multiple availability zones for reliability, and it is slightly more expensive.
+
+It is used for applications that need frequent access to data.
+
+---
+
+### EFS IA (Infrequent Access)  
+
+This one is designed for data that is not accessed regularly.
+
+It helps reduce cost and is good for backup or old files.
+
+Unlike EFS Standard, it is cheaper, but you pay a fee when you access the data.
