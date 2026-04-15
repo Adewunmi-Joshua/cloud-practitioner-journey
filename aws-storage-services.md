@@ -274,3 +274,11 @@ This one is designed for data that is not accessed regularly.
 It helps reduce cost and is good for backup or old files.
 
 Unlike EFS Standard, it is cheaper, but you pay a fee when you access the data.
+
+## Let talk about EFS Data Lifecycle  
+
+Let’s look at it like this: imagine you have a company that deals with customer data, but most of this data is not accessed regularly.
+
+You can use EFS Data Lifecycle to automatically move this data from EFS Standard to EFS Infrequent Access (IA), which helps reduce cost.
+
+So instead of keeping rarely used data in a more expensive storage class, AWS automatically moves it to a cheaper one while still keeping it available when needed.
