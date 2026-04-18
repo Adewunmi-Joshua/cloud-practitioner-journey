@@ -282,3 +282,17 @@ Let’s look at it like this: imagine you have a company that deals with custome
 You can use EFS Data Lifecycle to automatically move this data from EFS Standard to EFS Infrequent Access (IA), which helps reduce cost.
 
 So instead of keeping rarely used data in a more expensive storage class, AWS automatically moves it to a cheaper one while still keeping it available when needed.
+
+## What I cover in this document
+* What is cloud storage
+* Type of Storages
+* Block Storage
+* Amazon EC2 Instance Store
+* Snapshot
+*  Some benefits that come with EBS Snapshot
+*  Amazon S3
+*  Type of data
+*  What You Can Use S3 For
+*  Types of S3 Storage Classes
+*  and soon
+
