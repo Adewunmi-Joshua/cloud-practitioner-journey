@@ -45,3 +45,5 @@ Imagine you have a store in your house. You will agree with me that there is no 
 Same as a non-relational database, it is flexible and different formats of data can be stored.  
 
 But a relational database must be well structured and arranged in a way that the data corresponds with each other.
+
+More is coming 
