@@ -46,4 +46,16 @@ Same as a non-relational database, it is flexible and different formats of data 
 
 But a relational database must be well structured and arranged in a way that the data corresponds with each other.
 
-More is coming 
+## Let talk about AWS Relational Database (Amazon RDS)
+
+Let talk about AWS relational database, which is one of their services called Amazon RDS.
+
+It is used for managing relational databases with a fully managed process like setup, patching, backups, and maintenance, so you can focus on other things you need to do.
+
+Not only that, it is very reliable because it supports multi-AZ (multiple availability zone) deployment. This means that if one zone fails, it can fail over to another zone and keep operating.
+
+It also comes with strong security features like VPC integration and data encryption.
+
+Another good thing is that you only pay for what you use, which helps reduce cost and stress.
+
+Amazon RDS also supports different database engines like MySQL, Oracle, Microsoft SQL Server, and others.
