@@ -56,8 +56,20 @@ Not only that, it is very reliable because it supports multi-AZ (multiple availa
  
 It also comes with strong security features like VPC integration and data encryption.
 
-### What is Amazon Aurora ? 
-
 Another good thing is that you only pay for what you use, which helps reduce cost and stress.
 
 Amazon RDS also supports different database engines like MySQL, Oracle, Microsoft SQL Server, and others.
+
+
+### What is Amazon Aurora ? 
+
+
+Amazon Aurora is a cloud based relational database that is very fast and reliable.  
+
+It is just like replacing the normal database engine with a cloud built engine from AWS to make it more powerful, faster, and better in performance.  
+
+Another interesting thing is that it is compatible with databases like MySQL and PostgreSQL, meaning you can still work with them while getting better speed and reliability.  
+
+Not only that, Amazon Aurora is also designed for high availability and can automatically recover if there is an issue.  
+
+You only pay for the resources you use, which helps reduce cost and stress.
