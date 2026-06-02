@@ -18,3 +18,4 @@ Encryption is also used to turn customer data into unreadable characters that pe
 
 Imagine someone’s name is Henry, and it appears like unreadable information when encrypted. Without the right key, it will be difficult for someone to understand the real information.
 
+More to be added soon.
