@@ -1,6 +1,6 @@
 # AWS Security
 
-Let dive into how to protect data in the AWS Cloud, and one aspect I want to focus on especially is IAM (Identity and Access Management) section. As they always say, to use a product, it must be secure. Same as AWS Cloud, this section is very important and is not taken lightly at all, so a lot of things are put in place to protect people in the cloud.
+Let dive into how to protect data in the AWS Cloud, and one aspect I want to focus on especially is IAM (Identity and Access Management) section as career. As they always say, to use a product, it must be secure. Same as AWS Cloud, this section is very important and is not taken lightly at all, so a lot of things are put in place to protect people data in the cloud.
 
 So let start looking into it.
 
