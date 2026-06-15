@@ -18,4 +18,35 @@ Encryption is also used to turn customer data into unreadable characters that pe
 
 Imagine someone’s name is Henry, and it appears like unreadable information when encrypted. Without the right key, it will be difficult for someone to understand the real information.
 
-More to be added soon.
+## Type of Encryption
+
+Firstly, we have **Encryption at Rest**: what this actually means is that the data is being stored and is not currently in use or processing.
+
+Secondly, we have **Encryption in Transit**: this is the opposite here, where the data is being used and processed.
+
+A good example is when you request for your Skill Builder password and it is sent from the server to your application. Just put this in mind: it is moving data.
+
+---
+
+## Let talk about AWS Data Protection
+
+### AWS Key Management Service (KMS)
+
+This is used to create, store, and manage cryptographic keys, which are used to encrypt and decrypt data, and it can be used across multiple AWS services in your application.
+
+---
+
+### Cloud Hardware Security Module (CloudHSM)
+
+This allows you to securely store and manage cryptographic keys in dedicated hardware in the cloud.
+
+It acts like a private safe place in the cloud where you can trust highly sensitive keys with strong security protection.
+
+Another interesting thing is that you don’t have to stress yourself owning or maintaining this kind of expensive hardware when you can host it with AWS Cloud or another cloud provider.
+
+Let just imagine it like this: I don’t know if you have stored your data, especially MFA passkeys, in a USB hardware device before, where it asks you to plug it into your system before having access to a website or whatever you are using it for.
+
+Now imagine that kind of USB hardware hosted in the cloud with stronger protection than taking care of it yourself.
+
+More is coming
+
