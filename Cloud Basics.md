@@ -204,7 +204,8 @@ It is usually a web based interface where you log in and use clicks to create, c
 - Benefits of cloud computing
 - Cloud provider 
 - Types of cloud (deployment models)  
-- Cloud service models  
+- Cloud service models
+- Management console
 
 
 
