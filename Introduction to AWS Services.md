@@ -143,7 +143,7 @@ Wait, what is that? Don’t be scared. It is just about which part you are takin
 
 ---
 
-## AWS Responsibility (Security *of* the Cloud)
+## AWS Responsibility Security *of* the Cloud
 
 Let me use this example to clarify this.
 
